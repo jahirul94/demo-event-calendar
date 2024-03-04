@@ -1,0 +1,55 @@
+{
+	"apiVersion": 3,
+	"name": "create-block/demo-event-calendar",
+	"version": "0.1.0",
+	"title": "Demo Event calendar",
+	"category": "widgets",
+	"description": "Example block scaffolded with demo events.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"location": {
+			"type": "string",
+			"default": ""
+		},
+		"country": {
+			"type": "string",
+			"default": ""
+		},
+		"startTime": {
+			"type": "string",
+			"default": ""
+		},
+		"organizer": {
+			"type": "string",
+			"default": ""
+		},
+		"endTime": {
+			"type": "string",
+			"default": ""
+		},
+		"registrationEmail": {
+			"type": "string",
+			"default": ""
+		},
+		"startDate": {
+			"type": "string",
+			"default": ""
+		},
+		"endDate": {
+			"type": "string",
+			"default": ""
+		},
+		"registrationDeadline": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "demo-event-calendar",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
