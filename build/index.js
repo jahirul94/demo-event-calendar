@@ -198,76 +198,36 @@ function save({
   } = attributes;
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ..._wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps.save()
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks.Content, null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks.Content, null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "calender-text"
+  }, country && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "Event Country:"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    placeholder: "enter event country",
-    value: country,
-    readOnly: true
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, country)), location && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "Event Location:"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    placeholder: "enter event location",
-    value: location,
-    readOnly: true
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, location)), startTime && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "Start Time:"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    type: "time",
-    placeholder: "enter start time",
-    value: startTime,
-    readOnly: true
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, startTime)), endTime && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "End Time:"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    type: "time",
-    placeholder: "enter end time",
-    value: endTime,
-    readOnly: true
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, endTime)), organizer && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "Organizer:"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    placeholder: "event organizer",
-    value: organizer,
-    readOnly: true
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, organizer)), registrationEmail && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "Registration email:"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    type: "email",
-    placeholder: "registration email",
-    value: registrationEmail,
-    readOnly: true
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, registrationEmail)), startDate && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "Start Date:"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    type: "date",
-    placeholder: "start date",
-    value: startDate,
-    readOnly: true
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, startDate)), endDate && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "End Date :"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    type: "date",
-    placeholder: "end date",
-    value: endDate,
-    readOnly: true
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, endDate)), registrationDeadline && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
     tagName: "h5",
     value: "Registration Deadline:"
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
-    type: "date",
-    placeholder: "registration deadline",
-    value: registrationDeadline,
-    readOnly: true
-  }))));
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, registrationDeadline))));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (save);
 

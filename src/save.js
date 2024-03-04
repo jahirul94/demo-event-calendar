@@ -7,43 +7,43 @@ function save({ attributes }) {
 	return (
 		<div {...useBlockProps.save()}>
 			<InnerBlocks.Content />
-			<div>
-				<div>
+			<div className='calender-text'>
+				{country && <div>
 					<RichText.Content tagName='h5' value='Event Country:'></RichText.Content>
-					<input placeholder='enter event country' value={country} readOnly />
-				</div>
-				<div>
+					<p>{country}</p>
+				</div>}
+				{location && <div>
 					<RichText.Content tagName='h5' value='Event Location:'></RichText.Content>
-					<input placeholder='enter event location' value={location} readOnly />
-				</div>
-				<div>
+					<p>{location}</p>
+				</div>}
+				{startTime && <div>
 					<RichText.Content tagName='h5' value='Start Time:'></RichText.Content>
-					<input type='time' placeholder='enter start time' value={startTime} readOnly />
-				</div>
-				<div>
+					<p>{startTime}</p>
+				</div>}
+				{endTime && <div>
 					<RichText.Content tagName='h5' value='End Time:'></RichText.Content>
-					<input type='time' placeholder='enter end time' value={endTime} readOnly />
-				</div>
-				<div>
+					<p>{endTime}</p>
+				</div>}
+				{organizer && <div>
 					<RichText.Content tagName='h5' value='Organizer:'></RichText.Content>
-					<input placeholder='event organizer' value={organizer} readOnly />
-				</div>
-				<div>
+					<p>{organizer}</p>
+				</div>}
+				{registrationEmail && <div>
 					<RichText.Content tagName='h5' value='Registration email:'></RichText.Content>
-					<input type='email' placeholder='registration email' value={registrationEmail} readOnly />
-				</div>
-				<div>
+					<p>{registrationEmail}</p>
+				</div>}
+				{startDate && <div>
 					<RichText.Content tagName='h5' value='Start Date:'></RichText.Content>
-					<input type='date' placeholder='start date' value={startDate} readOnly />
-				</div>
-				<div>
+					<p>{startDate}</p>
+				</div>}
+				{endDate && <div>
 					<RichText.Content tagName='h5' value='End Date :'></RichText.Content>
-					<input type='date' placeholder='end date' value={endDate} readOnly />
-				</div>
-				<div>
+					<p>{endDate}</p>
+				</div>}
+				{registrationDeadline && <div>
 					<RichText.Content tagName='h5' value='Registration Deadline:'></RichText.Content>
-					<input type='date' placeholder='registration deadline' value={registrationDeadline} readOnly />
-				</div>
+					<p>{registrationDeadline}</p>
+				</div>}
 			</div>
 		</div>
 	);

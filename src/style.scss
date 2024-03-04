@@ -11,3 +11,20 @@
 .components-input-control__input {
 	background-color: aqua;
 }
+
+.calender-text {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0;
+}
+
+.calender-text div h5 {
+	font-weight: 800;
+	font-size: 22px;
+	margin-bottom: 0;
+}
+.calender-text div p {
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 5px;
+}
